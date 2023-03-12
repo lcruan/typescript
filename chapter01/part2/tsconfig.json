@@ -14,7 +14,6 @@
     // "exclude": [
     //     "./src/hello/**/*"
     // ],
-
     /**
         "compilerOptions" 编译器选项
     */
@@ -25,14 +24,11 @@
         "module": "CommonJS",
         // lib 用来指定项目中药使用的库, 一般不需要设置
         // "lib": ["dom"]
-
         // outDir 用来指定编译后文件所在目录
         "outDir": "./dist",
-
         // 将代码合并为一个文件
         // 设置outFile以后，所有的全局作用域中的代码会合并到同一个文件里
         // "outFile": "./dist/app.js"
-
         // allowJs是否对js文件进行编译，默认是false
         "allowJs": true,
         // checkJs 检查js代码是否符合语法规范
@@ -42,6 +38,16 @@
         // 不生成编译后的文件, 默认是false
         "noEmit": false,
         // 当有错误时不生成编译后的文件
-        "noEmitOnError": true
+        "noEmitOnError": true,
+        // 所有严格检查的总开关
+        "strict": false
+        // 用来设置编译后的文件是否使用严格模式，默认是false
+        "alwaysStrict": true,
+        // 不允许隐式的any类型
+        "noImplicitAny": false,
+        // 不允许不明确类型的tihs
+        "noImplicitThis": false,
+        // 严格插件空值
+        "strictNullChecks": false,
     }
 }
