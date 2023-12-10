@@ -17,7 +17,7 @@ c = {name: '猪八戒', age: 18, gender: '男'}
 // 如果这样写：let c: {name: string, [propName: string]: string}   则：c = {name: '猪八戒', age: '18', gender: '男'}
 
 
-/*************** 2. 函数Function 数结构的类型声明 ***************/
+/*************** 2. 函数Function 结构的类型声明 ***************/
 // let d: Function 这样写和object一个意思，没什么意义，希望去限制d的函数的结构，有几个参数？ 返回值是什么类型？
 // 类似于箭头函数的写法
 /**
